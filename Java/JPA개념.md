@@ -23,8 +23,9 @@
     - JPA는 방대한 기술을 포함하고 있으며, 이를 완전히 이해하고 사용하기 위해서는 상당한 시간과 노력이 필요합니다.
 
 ### JPA 동작원리
+![Screenshot 2024-02-23 at 1 22 51 am](https://github.com/henryKyuhyun/Study/assets/118201123/95146210-6597-45ed-980e-42e8aac4d74f)
 
-![Screenshot 2024-01-25 at 3.42.45 pm.png](JPA%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%203f1eb473c22e4ad3923a908acf0dc8b8/Screenshot_2024-01-25_at_3.42.45_pm.png)
+
 
 1. Entity Manage 생성 : JPA를 사용하기 위해 가장 먼저 엔티티 매니저를 생성합니다. 이 엔티티 매니저는 어플이케이션과 테이터베이스 사이에서 객체와 관계형 데이터를 관리합니다.
 2. 트랜잭션 관리 : 데이터베이스의 작업은 트랜잭션 단위로 이루어집니다. JPA는 이러한 트랜잭션을 관리해주는 역할을 합니다.
@@ -53,7 +54,8 @@
 
 ## Entity Life Cycle
 
-![Screenshot 2024-01-25 at 4.08.40 pm.png](JPA%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%203f1eb473c22e4ad3923a908acf0dc8b8/Screenshot_2024-01-25_at_4.08.40_pm.png)
+![Screenshot 2024-02-23 at 1 23 07 am](https://github.com/henryKyuhyun/Study/assets/118201123/d4049168-bac9-436b-a6dd-8cacfc589e84)
+
 
 **비영속(Transient)** : JPA와 전혀 관계가 없는 상태입니다. 엔티티 객체를 새로 생성했지만 아직 영속성 컨텍스트나 데이터베이스와는 연관되지 않은 상태를 말합니다.
 
@@ -85,7 +87,8 @@
 
 **이 외에도 영속성 컨텍스트는 트랜잭션 롤백이나 지연 로딩(lazy loading) 등 다양한 기능을 제공합니다. 이러한 기능들을 이해하고 활용하면 JPA를 통한 개발이 더욱 효율적이게 활용할 수 있다.**
 
-![Screenshot 2024-01-25 at 4.28.25 pm.png](JPA%E1%84%80%E1%85%A2%E1%84%82%E1%85%A7%E1%86%B7%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%203f1eb473c22e4ad3923a908acf0dc8b8/Screenshot_2024-01-25_at_4.28.25_pm.png)
+![Screenshot 2024-02-23 at 1 23 19 am](https://github.com/henryKyuhyun/Study/assets/118201123/375841d9-63de-435a-9562-0ff90f6578a1)
+
 
 # JPA- save()  , SaveAndFlush()
 
