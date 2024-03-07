@@ -6,7 +6,8 @@ Winston은 Node.js에서 가장 널리 사용되는 로깅 라이브러리 중 �
 
 ### Login Library ⇒
 
-![Screenshot 2024-03-06 at 9.25.18 pm.png](Node%20js%20%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20Winston%20eaeee134a2de41a5bb77ddb93977076d/Screenshot_2024-03-06_at_9.25.18_pm.png)
+![Screenshot 2024-03-07 at 11 57 29 am](https://github.com/henryKyuhyun/Study/assets/118201123/d7d1e741-30d9-4b30-985c-b3d66b4479ef)
+
 
 ### Winston 의 장점 대비 Console.error
 
@@ -122,7 +123,8 @@ if (error) {
 
 이런식으로 출력이된다..
 
-![Screenshot 2024-03-06 at 9.22.51 pm.png](Node%20js%20%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20Winston%20eaeee134a2de41a5bb77ddb93977076d/Screenshot_2024-03-06_at_9.22.51_pm.png)
+![Screenshot 2024-03-07 at 11 57 45 am](https://github.com/henryKyuhyun/Study/assets/118201123/cdf777fb-f6cc-435a-a96e-c6ddbd05ce6e)
+
 
 ```json
 {
@@ -142,7 +144,8 @@ if (error) {
 }
 ```
 
-![Screenshot 2024-03-06 at 9.23.18 pm.png](Node%20js%20%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20Winston%20eaeee134a2de41a5bb77ddb93977076d/Screenshot_2024-03-06_at_9.23.18_pm.png)
+![Screenshot 2024-03-07 at 11 57 55 am](https://github.com/henryKyuhyun/Study/assets/118201123/31d96da8-f32a-4b21-bf9b-b6700110072e)
+
 
 **결론**
 
