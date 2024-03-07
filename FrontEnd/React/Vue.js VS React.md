@@ -1,6 +1,7 @@
 # React VS Vue
 
-![Screenshot 2024-03-05 at 4.59.41 pm.png](React%20VS%20Vue%204eac2b2766b8458f8cc8f93a6e88e406/Screenshot_2024-03-05_at_4.59.41_pm.png)
+![Screenshot 2024-03-07 at 11 56 16 am](https://github.com/henryKyuhyun/Study/assets/118201123/d0a8eab0-27be-483b-8340-df92b900311b)
+
 
 Vue.js and React.js are two popular frontend frameworks in the developer world
 
@@ -10,7 +11,8 @@ Both tools offer developers a productive approach to building various webApplica
 
 The main reason is time. Both frameworks can accomplish similar results, are popular in the community, and are used by successful businesses. But they **offer differences that impact the learning curve, implementation time, and ideal use cases.**
 
-![Screenshot 2024-03-05 at 4.52.57 pm.png](React%20VS%20Vue%204eac2b2766b8458f8cc8f93a6e88e406/Screenshot_2024-03-05_at_4.52.57_pm.png)
+![Screenshot 2024-03-07 at 11 56 28 am](https://github.com/henryKyuhyun/Study/assets/118201123/8124dd5d-5cbe-4a95-971c-7e127fee7b6c)
+
 
 So, if you are a developer, you know that it takes a lot of effort to master technology. By smartly picking a few technologies to focus on, you won’t become a jack-of-all-trades(만물박사, 팔방미인) with hollow knowledge (공허한지식을가진 만물박사 (텅텅빈지식))
 
@@ -37,7 +39,8 @@ React’s JavaScript Expressions (JSX) combine HTML and CSS together into JavaSc
 
 Stars on Github is one thing but what is the actual regular usage of these frameworks? [The Jet Brains Dev Ecosystem 2021](https://www.jetbrains.com/lp/devecosystem-2021/javascript/) survey revealed that both the developer expertise and regular usage of the two frameworks are high, with Vue.js being on the rise. The share of Vue.js users grew from 34% in 2020 to 43% in 2021 while React experienced a drop from [64% to 49% in](https://www.jetbrains.com/lp/devecosystem-2020/javascript/) a YoY comparison. 
 
-![Screenshot 2024-03-05 at 4.58.22 pm.png](React%20VS%20Vue%204eac2b2766b8458f8cc8f93a6e88e406/Screenshot_2024-03-05_at_4.58.22_pm.png)
+![Screenshot 2024-03-07 at 11 56 46 am](https://github.com/henryKyuhyun/Study/assets/118201123/883a357d-8e99-45c8-906d-a294065062dd)
+
 
 Another statistic giving us a better overview of the Vue vs. React front is the yearly State of JS survey.
 
@@ -45,7 +48,8 @@ In 2022, there was a growing upward trend in the retention, interest, usage, and
 
 For React, the ratio in 2022 was at 83%, compared with 83.7% in 2021.
 
-![Screenshot 2024-03-05 at 4.58.46 pm.png](React%20VS%20Vue%204eac2b2766b8458f8cc8f93a6e88e406/Screenshot_2024-03-05_at_4.58.46_pm.png)
+![Screenshot 2024-03-07 at 11 56 53 am](https://github.com/henryKyuhyun/Study/assets/118201123/b10acfc1-67e3-49da-b6b9-f839599bb8e3)
+
 
 So if there is a business need for a more complex app, getting an experienced React developer who can jump into the project and start working immediately can take less time. On the other hand, the pool of Vue.js developers has been steadily growing in the last six years so this is becoming less challenging, too.
 
