@@ -2,7 +2,8 @@
 
 참고  :[https://react.dev/](https://react.dev/)
 
-![Screenshot 2024-02-28 at 4.05.13 pm.png](React%E1%84%85%E1%85%A1%E1%86%AB%20784f7638fc9641d4bab4814212489c6c/Screenshot_2024-02-28_at_4.05.13_pm.png)
+![Screenshot 2024-03-07 at 11 55 06 am](https://github.com/henryKyuhyun/Study/assets/118201123/38f44fcd-76b6-4746-949e-5d105ef17992)
+
 
 리액트는 라이브러리입니다. 프레임워크가 아닙니다.
 
@@ -17,7 +18,7 @@
 
 웹 어플리케이션의 발전.
 
-![Screenshot 2024-02-28 at 4.09.44 pm.png](React%E1%84%85%E1%85%A1%E1%86%AB%20784f7638fc9641d4bab4814212489c6c/Screenshot_2024-02-28_at_4.09.44_pm.png)
+![Screenshot 2024-03-07 at 11 55 19 am](https://github.com/henryKyuhyun/Study/assets/118201123/d35e88be-a2b6-4330-893a-3dc74bab69da)
 
 ### React - 선언형
 
@@ -47,7 +48,8 @@ function add(arr) {
 
 리액트가 화면을 업데이트하는 과정을 조금 더 효율적으로 수행하기 위한 기술이다. 자세히 말하자면 DOM 을 반복적으로 직접 조작하면 그만큼 브라우저가 렌더링을 자주 하게 되고, 그만큼 PC 자원을 많이 소모하게 되는 문제를 해결하기 위한 기술이다.
 
-![Screenshot 2024-02-28 at 4.22.31 pm.png](React%E1%84%85%E1%85%A1%E1%86%AB%20784f7638fc9641d4bab4814212489c6c/Screenshot_2024-02-28_at_4.22.31_pm.png)
+![Screenshot 2024-03-07 at 11 55 40 am](https://github.com/henryKyuhyun/Study/assets/118201123/8d269caf-fd0a-4303-aadc-0babe06e663b)
+
 
 예시로 좌측의 경우는 필요할 때마다 요청해서 3번이나 가는 비효율적 상황이고 , 우측의 경우 Virtual DOM이 계산을 하고 정리된 요청을 하여 창고로 한번만 가는 경우이다.
 
