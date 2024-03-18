@@ -8,11 +8,11 @@
 
 **포워드프록시는 클라이언트를 대신하여 프록시서버가 목적 서버와 통신하는 구조이다.**  이 구조에서 프록시 서버는 외부 웹 서버와 직접 통신하며, 클라이언트는 이 프록시 서버를 통해서만 정보를 얻게 됩니다. 이 과정에서 웹서버에는 프록시 서버를 통한 접근 로그가 남게 됩니다. 클라이언트는 사용할 특정 프록시 서버를 직접 설정할 수 있습니다.
 
-![Screenshot 2024-03-11 at 3.30.10 pm.png](Forward%20Proxy%20&%20Reverse%20Proxy%20&%20Load%20Balancer%205f9c65a5806749b4b0b91471096aa794/Screenshot_2024-03-11_at_3.30.10_pm.png)
+<img src="/img/ForwardProxy&Reverse1.img">
 
 포워드 프록시의 경우 아래와 같이 프록시 서버가 외부 Web 서버와 통신한다. 그로므로 클라이언트는 프록시 서버만을 통해 정보를 얻게된다. 따라서 Web 서버쪽에서는 프록시 서버를 통한 엑세스 로그가 남는다. 
 
-![Screenshot 2024-03-11 at 3.39.16 pm.png](Forward%20Proxy%20&%20Reverse%20Proxy%20&%20Load%20Balancer%205f9c65a5806749b4b0b91471096aa794/Screenshot_2024-03-11_at_3.39.16_pm.png)
+<img src="/img/ForwardProxy&Reverse2.png">
 
 그리고 포워드 프록시의 경우는 어떤 프록시 서버를 경우하도록 할 것인가는 클라이언트가 설정 할 수 있다. 
 
@@ -21,12 +21,13 @@ Forward Proxy의 장점 :
 - 캐시 저장
     - **프록시 서버는 웹 페이지의 캐시를 저장할 수 있으며, 동일한 페이지에 대한 후속 요청은 저장된 캐시로부터 빠르게 제공됩니다. 이를 통해 웹 사이트 접속 속도가 향상됩니다.**
 
-![Screenshot 2024-03-11 at 3.33.56 pm.png](Forward%20Proxy%20&%20Reverse%20Proxy%20&%20Load%20Balancer%205f9c65a5806749b4b0b91471096aa794/Screenshot_2024-03-11_at_3.33.56_pm.png)
+<img src="/img/ForwardProxy&Reverse3.png">
 
 - URL 필터링
     - **모든 외부 액세스가 프록시 서버를 경유함으로써, 관리자는 사용자의 외부 웹 사이트 액세스를 효과적으로 필터링할 수 있습니다. 예를 들어, `http://example1.co.jp`에 대한 액세스 시도는 설정에 따라 차단되어 에러 페이지가 표시될 수 있습니다.**
         
-        ![Screenshot 2024-03-11 at 3.35.14 pm.png](Forward%20Proxy%20&%20Reverse%20Proxy%20&%20Load%20Balancer%205f9c65a5806749b4b0b91471096aa794/Screenshot_2024-03-11_at_3.35.14_pm.png)
+<img src="/img/ForwardProxy&Reverse4.png">
+
         
     
 
@@ -36,7 +37,8 @@ A 라는 회사가 [example.com](http://example.com) 이라는 고객용 웹 서
 
 리버스 프락시로 웹 서버를 설정할 경우 사용자가 [example.com](http://example.com/) 웹 서비스에 데이타를 요청하면 Reverse Proxy 는 이 요청을 받아서 내부 서버(보통 WAS 입니다)에서 데이타를 받은후에 이 데이타를 사용자에게 다시 전달하게 됩니다.
 
-![Screenshot 2024-03-11 at 3.41.37 pm.png](Forward%20Proxy%20&%20Reverse%20Proxy%20&%20Load%20Balancer%205f9c65a5806749b4b0b91471096aa794/Screenshot_2024-03-11_at_3.41.37_pm.png)
+<img src="/img/ForwardProxy&Reverse5.png">
+
 
 **대부분의 WAS 는 Web Server 기능을 제공하므로 Reverse proxy 가 없이 내부 WAS 가 직접 서비스를 제공해도 되지만 이렇게 구성하는 이유중 여러가지가 있습니다.**
 
@@ -46,7 +48,8 @@ A 라는 회사가 [example.com](http://example.com) 이라는 고객용 웹 서
 
 **보통 기업의 네트워크 환경은 비무장 지대(DMZ; Demilitarized Zone) 라고 하는 내부 네트워크와 외부 네트워크 사이에 위치하는 구간이 존재합니다.**
 
-![https://www.lesstif.com/system-admin/files/21430345/113344891/1/1622590089000/image2021-6-2_8-28-10.png](https://www.lesstif.com/system-admin/files/21430345/113344891/1/1622590089000/image2021-6-2_8-28-10.png)
+<img src="/img/ForwardProxy&Reverse6.png">
+
 
 **위 그림과 같이 DMZ 내에 외부에 서비스를 제공하는 서버(메일 서버, 웹 서버, DNS 서버)를 배치하고 네트워크는 1, 2차 방화벽으로 보호합니다.**
 
@@ -79,7 +82,8 @@ A 라는 회사가 [example.com](http://example.com) 이라는 고객용 웹 서
 - 여러 서버 간에 네트워크 트래픽이나 요청을 분산시켜주는 장치나 소프트웨어를 말합니다. 주로 고가용성, 높은 성능, 그리고 안정적인 서비스 제공을 위해 사용됩니다. 로드 밸런서는 다수의 서버가 작업을 공유함으로써 단일 서버에 발생할 수 있는 과부하를 방지하고, 서비스으 가용성과 신뢰성을 증가시킵니다.
 - 로드밸런서(Load Balancer)는 클라이언트와 서버 그룹 사이에 위치해 서버에 가해지는 트래픽을 여러 대의 서버에 고르게 분배하여 특정 서버의 부하를 덜어줍니다. 서버가 하나인데 많은 트래픽이 몰릴 경우 부하를 감당하지 못하고, 서버가 다운되어 서비스가 작동을 멈출 수 있습니다. 이런 문제를 해결하기 위해서 Scale up(스케일업)과 Scale out(스케일아웃) 방식 중 한 가지를 사용해 해결합니다.
 
-![Screenshot 2024-03-11 at 3.54.16 pm.png](Forward%20Proxy%20&%20Reverse%20Proxy%20&%20Load%20Balancer%205f9c65a5806749b4b0b91471096aa794/Screenshot_2024-03-11_at_3.54.16_pm.png)
+<img src="/img/ForwardProxy&Reverse7.png">
+
 
 ### 로드 밸런서의 주요기능 ⇒
 
